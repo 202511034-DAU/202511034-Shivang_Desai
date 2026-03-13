@@ -2,8 +2,11 @@
 ## Student Information
 
 **Name:** SHIVANG DESAI
+
 **Student ID:** 202511034
+
 **Course:** IT549 – Deep Learning
+
 **Assignment:** Lab 3
 
 ---
