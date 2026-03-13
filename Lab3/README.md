@@ -13,7 +13,7 @@
 # Image-Based AQI Classification using CNN and Transfer Learning
 
 
-# Project Overview
+# Lab Overview
 
 This project implements an **image-based Air Quality Index (AQI) classification system** using deep learning techniques. The objective is to predict the **AQI_Class** of a location using environmental images.
 
