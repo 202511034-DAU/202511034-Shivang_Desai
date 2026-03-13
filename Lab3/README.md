@@ -129,6 +129,26 @@ Both models were evaluated on the **test dataset** using:
 | Pretrained ResNet | 0.801111 | 0.811128  | 0.801111 | 0.800259 |
 
 The pretrained model generally performs better due to its ability to leverage **features learned from large-scale datasets like ImageNet**.
+But here Basic CNN performed better.
+The Basic CNN achieved slightly better performance than the pretrained ResNet model across all evaluation metrics. The CNN obtained an accuracy of 81.56%, whereas the pretrained ResNet achieved 80.11%.
+
+The precision, recall, and F1-score values also show a similar pattern, with the CNN consistently performing slightly better. This indicates that the CNN model was able to learn discriminative features for AQI classification effectively from the dataset.
+
+Possible Reasons for CNN Performing Better
+
+Although pretrained models often outperform models trained from scratch, in this case the Basic CNN performed better. Possible reasons include:
+
+Dataset characteristics
+The dataset may contain features that are relatively simple for a custom CNN to learn, making transfer learning less advantageous.
+
+Limited fine-tuning of the pretrained model
+Only a small portion of the pretrained network was trained (with the first layers frozen), which may have limited its ability to adapt fully to the AQI classification task.
+
+Small training duration
+Both models were trained for only 5 epochs, which may not be sufficient for the pretrained model to properly adjust its weights to the dataset.
+
+Domain difference from ImageNet
+ResNet was originally trained on ImageNet objects, while this dataset focuses on environmental scenes related to air quality. Because of this domain difference, the pretrained features may not perfectly match the task.
 
 ---
 
