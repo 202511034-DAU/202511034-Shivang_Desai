@@ -147,8 +147,7 @@ Only a small portion of the pretrained network was trained (with the first layer
 Small training duration
 Both models were trained for only 5 epochs, which may not be sufficient for the pretrained model to properly adjust its weights to the dataset.
 
-Domain difference from ImageNet
-ResNet was originally trained on ImageNet objects, while this dataset focuses on environmental scenes related to air quality. Because of this domain difference, the pretrained features may not perfectly match the task.
+
 Also i have only trained for 5 epoch and have freezed 10 layers in ResNET . This may also add to lower performance.
 ---
 
