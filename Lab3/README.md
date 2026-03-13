@@ -149,7 +149,7 @@ Both models were trained for only 5 epochs, which may not be sufficient for the 
 
 Domain difference from ImageNet
 ResNet was originally trained on ImageNet objects, while this dataset focuses on environmental scenes related to air quality. Because of this domain difference, the pretrained features may not perfectly match the task.
-
+Also i have only trained for 5 epoch and have freezed 10 layers in ResNET . This may also add to lower performance.
 ---
 
 # Training Curves
@@ -185,16 +185,5 @@ Each image was visualized with:
 
 ---
 
-# Conclusion
-
-This project demonstrates the effectiveness of **deep learning for image-based AQI classification**.
-
-Key findings:
-
-* The **pretrained ResNet model outperformed the basic CNN**.
-* Transfer learning significantly improves performance when training data is limited.
-* Misclassification analysis highlights the challenges of visual pollution detection.
-
----
 
 
