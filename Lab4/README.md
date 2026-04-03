@@ -1,6 +1,5 @@
 # Deep Learning Lab Assignment: Object Detection
 
-## Student Details
 
 * Name:       Shivang Desai
 * Student ID: 202511034
