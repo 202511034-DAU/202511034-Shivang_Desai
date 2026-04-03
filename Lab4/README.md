@@ -152,6 +152,4 @@ This assignment demonstrates the evolution of object detection models and highli
 ---
 
 
-## Notes
 
-* Results may vary based on training configuration and dataset size.
